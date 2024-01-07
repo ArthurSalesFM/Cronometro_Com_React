@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.titulo{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+}
+
+.timer{
+    font-size: 80px;
+    margin-top: -200px;
+}
+
+.areaBtn{
+    margin-top: 100px;
+    display: flex;
+}
+
+.botao{
+    width: 150px;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+    padding: 2px;   
+}
+
+.botao:hover{
+    transition: 0.5s;
+    background-color: aquamarine;    
+    opacity: 0.8;
+    color: black;   
+}
